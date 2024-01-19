@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="visitor.master.cs" Inherits="header" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed' />
+    <link href="css/header.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="topnav">
+    <a href="index.aspx"><img src="images/pizzalogohome.png" height="80" width="120" /></a>
+      
+    <a href="index.aspx">HOME</a>
+    <a href="menu.aspx">MENU</a>
+	<a href="feedback.aspx">FEEDBACK</a>
+    <a href="about.aspx">ABOUT US</a>
+    <a href="login.aspx">LOGIN</a>
+    
+  <%--  <span id="searchIconContainer" class="search">
+      <i class="fa fa-search" aria-hidden="true"></i> SEARCH
+    </span>
+        --%>
+</div>
+<div class="secnav">
+  <div class="search-container" id="searchContainer" style="display: none;">
+    <form action="productdisc.php" method="GET">
+      <input type="text" placeholder="Search.." name="id">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+     
+   
+<%--<script>
+    document.addEventListener("DOMContentLoaded", function() {
+       const searchIconContainer = document.getElementById("searchIconContainer");
+       const searchContainer = document.getElementById("searchContainer");
+
+        searchIconContainer.addEventListener("click", function() {
+            if (searchContainer.style.display === "none" || searchContainer.style.display === "") {
+                searchContainer.style.display = "block";
+                searchIconContainer.innerHTML = '<i class="fa fa-times" aria-hidden="true"></i> CLOSE';
+            } else {
+                searchContainer.style.display = "none";
+                searchIconContainer.innerHTML = '<i class="fa fa-search" aria-hidden="true"></i> SEARCH';
+            }
+        });
+    });
+</script>--%>
+    <form id="form1" runat="server">
+        
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+   
+    </div>
+   
+    <footer class="footer">
+        <%--<div class="container">--%>
+            <p> Created By Vyoma Thakar & Rinkal Gadhiya | All Rights Reserved.</p>
+        <%--</div>--%>
+    </footer>
+
+    </form>
+    
+    </body>
+</html>

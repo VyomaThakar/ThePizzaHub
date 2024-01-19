@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+    <Ad>
+        <ImageUrl>http://localhost:48378/vr/images/home1.png</ImageUrl>
+        <NavigateUrl>http://www.example.com/ad1</NavigateUrl>
+        <AlternateText>Ad1</AlternateText>
+      <impressions>1</impressions>
+      
+        
+    </Ad>
+
+  <Ad>
+    <ImageUrl>http://localhost:48378/vr/images/home2.png</ImageUrl>
+    <NavigateUrl>http://www.example.com/ad1</NavigateUrl>
+    <AlternateText>Ad1</AlternateText>
+    <impressions>1</impressions>
+
+
+  </Ad>
+   
+  <Ad>
+    <ImageUrl>http://localhost:48378/vr/images/index3.jpg</ImageUrl>
+    <NavigateUrl>http://www.example.com/ad2</NavigateUrl>
+    <AlternateText>Ad 2</AlternateText>
+    <impressions>1</impressions>
+   
+  </Ad>
+
+
+</Advertisements>
