@@ -1,0 +1,126 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    animation: rotate 6s infinite alternate linear;
+    font-family: "Ubuntu";
+}
+  .first{
+    display: flex;
+    place-items: center;
+    margin: 0;
+    padding: 0 14px;
+  }
+.login-card{
+   /* position: relative;
+ 
+    width: 30%;
+    margin: 110px 440px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    
+    text-align: center;
+    border: 2px solid gray;*/
+}
+
+.login-card > h2{
+    font-size: 36px;
+    font-weight: 600;
+   margin-top:0px;
+   color: black;
+   margin: 80px 0px 0px 250px;
+}
+
+.login-card > h3{
+  
+    color: black;
+    margin: 50px 0 30px 210px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form{
+    width: 100%;
+  /* margin: 0;*/
+    display: grid;
+    gap: 16px;
+     margin: 50px 0 30px 100px;
+    
+}
+
+.login-form > .input, .login-form > .button{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.login-form > .input {
+    border: 2px solid #ebebeb;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+    
+}
+
+.login-form > .input:hover{
+    border: 2px solid gray;
+}
+
+.login-form > .button{
+    cursor: pointer;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background: #fa5f55;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    
+}
+
+.login-form > .button:hover{
+    background: white;
+    color: #fa5f55;
+    border: 2px solid #fa5f55;
+}
+
+.login-form > .a1{
+    color: black;
+    text-decoration: none;
+    /*font-size: 0.9rem;
+    text-align: left;
+    text-decoration: none;
+   margin-bottom: 6px;
+    /*transition: all 0.375s;*/
+    /*margin-left: 70px;
+    margin-top: 20px;*/
+    margin: 0px 0 0px 90px;
+    padding: 10px;
+}
+
+.login-form > .a1:hover{
+    color: black;
+    border-bottom: 2px solid #FA5F55;
+    width: 225px;
+    flex-align: center;
+
+}
+
